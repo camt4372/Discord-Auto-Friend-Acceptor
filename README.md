@@ -1,1 +1,124 @@
-# Discord-Auto-Friend-Acceptor
+# Discord 자동 친구 요청 수락기
+
+Discord에서 대기 중인 친구 요청을 자동으로 수락하는 Python 스크립트입니다.
+
+---
+
+## ⚠️ 경고 (필독)
+
+**이 프로젝트는 Discord 이용약관(ToS)을 위반할 수 있습니다.**
+
+- 자동화 스크립트 사용은 정책 위반 가능성 존재
+- 계정 영구 정지 위험 있음
+- 모든 책임은 사용자 본인에게 있음
+
+> 본 프로젝트는 학습 및 연구 목적에 한해 제공됩니다.
+
+---
+
+## ✨ 주요 기능
+
+- 🔄 0.1초 간격 자동 감지
+- 🤝 친구 요청 자동 수락
+- 🚫 '낯선 사람 요청' 자동 처리
+- 📊 실시간 로그 출력 (성공/실패)
+- ⏱ Rate Limit 대응 로직 포함
+
+---
+
+## 🚀 설치 방법
+
+### 1. Python 설치
+- Python 3.6 이상 필요
+- https://python.org
+
+### 2. 패키지 설치
+```bash
+pip install requests
+```
+
+### 3. 저장소 클론
+```bash
+git clone https://github.com/your-username/discord-auto-acceptor.git
+cd discord-auto-acceptor
+```
+
+---
+
+## 🔧 사용 방법
+
+### 1. 토큰 설정
+
+```python
+TOKEN = "봇토큰말고 유저토큰 넣으셈"
+```
+
+또는 환경변수 사용:
+
+```bash
+export DISCORD_TOKEN=유저토큰
+```
+
+### 2. 실행
+```bash
+python main.py
+```
+
+### 3. 종료
+```
+Ctrl + C
+```
+
+---
+
+## 📊 실행 예시
+
+```
+🤖 실행 중...
+✅ 친구요청 수락성공: user1
+❌ 수락실패: user2
+```
+
+---
+
+## ⚙️ 설정
+
+| 변수 | 설명 | 기본값 |
+|------|------|--------|
+| INTERVAL | 요청 확인 간격 | 0.1 |
+| RETRY_DELAY | 재시도 대기 | 0.1 |
+| REQUEST_TIMEOUT | 요청 타임아웃 | 10 |
+
+---
+
+## 🗂️ 구조
+
+```
+project/
+├── Auto_Friend.py
+└── README.md
+```
+
+---
+
+## 🔒 보안 주의
+
+- 토큰 절대 공개 금지
+
+---
+
+## 📜 라이선스
+
+MIT License
+
+---
+
+## ⚠️ 면책 조항
+
+이 소프트웨어 사용으로 발생하는 모든 문제에 대해 개발자는 책임지지 않습니다.
+
+---
+
+## ⭐ Support
+
+프로젝트가 도움이 되었다면 ⭐ 부탁드립니다!
