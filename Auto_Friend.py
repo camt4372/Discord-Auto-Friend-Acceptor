@@ -10,7 +10,7 @@ session.headers.update({
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
 })
 
-print("🤖 실행 중... (Ctrl+C로 중지)")
+print("자동 수락 시작!")
 
 while True:
     try:
