@@ -29,9 +29,9 @@ while True:
                                    json={"confirm_stranger_request": True})
                 
                 if r.status_code == 204:
-                    print(f"✅ 친구요청 수락성공: {name}")
+                    print(f"✅ 친구요청 수락성공 : {name}")
                 else:
-                    print(f"❌ 수락실패: {name}")
+                    print(f"❌ 수락실패 : {name}")
                 
                 time.sleep(0.1)
         
