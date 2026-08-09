@@ -39,8 +39,7 @@ pip install requests
 
 ### 3. 저장소 클론
 ```bash
-git clone https://github.com/your-username/discord-auto-acceptor.git
-cd discord-auto-acceptor
+git clone https://github.com/camt4372/Discord-Auto-Friend-Acceptor
 ```
 
 ---
